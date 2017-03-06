@@ -1,0 +1,71 @@
+body{
+  background-image: url("Photos/space.jpg");
+  background-repeat: no-repeat;
+
+}
+
+.nav{
+  background-color:rgba(0, 0, 0, 0.5);;
+  border: double black;
+}
+
+.right-column, .left-column {
+  background-color: rgba(0, 0, 0, 0.5);;
+  height: 800px;
+}
+
+.right-column {
+  background-color:rgba(0, 0, 0, 0.5);;
+}
+
+.footer {
+  background-color: rgba(0, 0, 0, 0.5);;
+  height: 200px;
+  border: thin solid black;
+
+}
+
+img.scaled {
+  width: 360px;
+  height: 360px;
+  align-content: center;
+}
+
+@font-face {
+  font-family: clouds;
+  src:url("Fonts/font.ttf");
+}
+
+.cloud{
+  font-family: clouds;
+  font-size: medium;
+  color:blue;
+}
+
+li {
+    display: inline;
+}
+
+.border{
+    border:thin black solid;
+}
+
+a:visited {
+    color: red;
+}
+
+a:hover {
+    color: #FF00FF;
+}
+
+#header{
+  position: relative;
+  width: 75%;
+  height: 10%;
+  left:10px;
+  z-index: 1;
+}
+
+.scale{
+   transform: scale(1,1)
+}
